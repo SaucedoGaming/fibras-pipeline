@@ -11,6 +11,7 @@ airflow-webserver.pid
 __pycache__/
 *.pyc
 .venv/
+output/
 
 # dbt
 dbt/target/
