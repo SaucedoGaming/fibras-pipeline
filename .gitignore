@@ -10,7 +10,7 @@ airflow-webserver.pid
 # Python
 __pycache__/
 *.pyc
-.venv/
+venv/
 output/
 
 # dbt
