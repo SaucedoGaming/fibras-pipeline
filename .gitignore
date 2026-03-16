@@ -1,0 +1,20 @@
+# Secrets — NUNCA subir a git
+.env
+*.env
+
+# Airflow
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# dbt
+dbt/target/
+dbt/.user.yml
+
+# MinIO data local
+minio_data
